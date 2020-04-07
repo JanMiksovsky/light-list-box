@@ -1,0 +1,22 @@
+light-list-box {
+  border: 1px solid gray;
+  box-sizing: border-box;
+  display: block;
+  outline: none;
+  overflow-y: auto;
+}
+
+light-list-box[focus-visible]:focus-within {
+  outline-color: Highlight; /* Firefox */
+  outline-color: -webkit-focus-ring-color; /* All other browsers */
+  outline-style: auto;
+}
+
+light-list-box > * {
+  padding: 0.25em;
+}
+
+light-list-box > [aria-selected="true"] {
+  background: highlight;
+  color: highlighttext;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "light-list-box",
+  "version": "1.0.0",
+  "devDependencies": {
+    "elix": "12.1.1"
+  }
+}
